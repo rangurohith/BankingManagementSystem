@@ -14,7 +14,7 @@ public class Bank {
             System.out.println("⚠ Account with number " + account.getAccountNumber() + " already exists!");
         } else {
             accounts.add(account);
-            System.out.println("✅ Account created: " + account.getAccountNumber());
+            System.out.println(" Account created: " + account.getAccountNumber());
         }
     }
     public BankAccounts findAccount(int accountNumber) {
